@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 1em 5%;
+    background: url('https://wallpaperplay.com/walls/full/4/f/6/129743.jpg');
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    border-radius: 5px;
+    width: 7em;
+    background: white;
+    color: red;
+    border: 1px solid red;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+header > img{
+    width: 50%;
+}
